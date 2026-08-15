@@ -1,7 +1,7 @@
 # ⚡ Azure Infrastructure & Landing Zone Registry 🚀
 
 [![Terraform](https://img.shields.io/badge/Terraform-1.x-purple?logo=terraform)](https://www.terraform.io/)
-[![Azure](https://img.shields.io/badge/Azure-Provider%20v4.x-blue?logo=microsoftazure)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+[![Azure](https://img.shields.io/badge/Azure-Provider%20v5.x-blue?logo=microsoftazure)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 [![IaC](https://img.shields.io/badge/Architecture-Modular-success)](#-reusable-modules)
 
 Welcome to the **Azure Infrastructure & Landing Zone Registry**! 🌐  
@@ -131,7 +131,7 @@ terraform destroy
 > **Secrets Management**: Never commit sensitive secrets or credentials into `terraform.tfvars`. Use Azure Key Vault or environment variables for secret injection.
 
 - 🔐 **State Management**: Configure a remote backend (e.g., Azure Blob Storage with state locking) for team collaboration.
-- 📌 **Provider Version Pinning**: Provider configurations pin the `azurerm` provider version (`~> 4.0`) for stability and predictability.
+- 📌 **Provider Version Pinning**: Provider configurations pin the `azurerm` provider version (`~> 5.0`) for stability and predictability.
 - 🔁 **DRY Principles**: Utilize dynamic object maps (`for_each`) to keep module declarations clean and maintainable.
 
 ---
