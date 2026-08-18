@@ -1,8 +1,10 @@
 resource_group={
+    # Mansik gulam logo ke liye
     rg1={
     name="rg-preprod"
     location="east us"
     }
+    Mansik ajad logo ke liye
       rg2={
         name="rg-ajadi"
         location="central india"
